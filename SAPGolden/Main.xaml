@@ -1,0 +1,177 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="577.333333333333,3390" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="476,3325.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Application: SAP Logon 770" sap:VirtualizedContainerService.HintSize="434,3233.33333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="84bc48cb-1ab1-4cec-a880-625a245aa19b" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,2938.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Log On'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="766, 813, 85, 39" ElementType="Button" FriendlyName="'Log On'" FullSelectorArgument="&lt;wnd ctrlid='1068' title='&amp;amp;Log On' /&gt;&lt;ctrl name='Log On' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1068' title='&amp;amp;Log On' /&gt;&lt;ctrl name='Log On' role='push button' automationid='' check:text='Log On' /&gt;" Guid="4807f5aa-a490-4832-a5b1-f8e0211bbefd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFkAAAArCAYAAAAT4SRlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANFSURBVGhD7ZsxaxRBGIat/Rs2/hF/gMFa/4GVpYKdtY1GG+0EwUKwsBMtBBELCSiiSRCMiFGDmKARZeQ57z3eG7+927vbMXthXnjJ3dw3MzvPfPvd5tg9kqqKq0L+DwohX3m4nU5d30zHLrxIR88+r55iOMELbpHGIK9v76eV1Y1woOp2Xrm2OeDoGoNMQNSxejaTqK4RZFI96lA9n710jCBTU6Lg6vkMT2kEuX7JdWt4SiPIUWD1YpYq5IKWKuSClirkgpYq5IKWKuSClirkgpZmgnxv7eswOg1eRzF98tVHn9La1ve0t/97eNQpvdv5mR68+pZOXH4T9unS0qGEfPziywHMaWITov5dWVoayIB7srk3mDv63O2AyWL6cbw4h18StFQcMnCI/bz7a9jz7ynb1P/cna1/TnHev/74Y/hu8rH6MTJnVBY8hnk4RtqZWyLm9I23g7klXtOWj9dkqSjkaactn2mB2BeJ8r6AJsbnyO2bOSnWN03Z7PNTt32jJcbPx2qyVBSyL4QsYBHY4fk4yhoWpwxkEwRu2gKJlabFAlainNDmkBFj3Hr6ZWAHPmnz3FIxyECSgOqfOQwOXu3aFP56PFkleXtuh5SPkTuK9TYvIxjQUpsEw1IxyJ4pUaxnubJWbfNmcpeQ8/7+WW8gT4t1yCyANl8IElypzZWAtGi5WArI82Ry3i5Rqy/d/zDWv8le77V5kX0ebd7SQfaanGdV0xeUNoY2r4ez2DeXshNdcvk6vPb2DjIHwfvIivds4ZTkQMnIpqsLXkcCuuZrAz+/9Jv0z4ifIb2DPEmKB0i+KJdqoewLaRLjeZ/IzOsbHIkMVpmQlxIyZsH0IxslQOULxNoQzzwWm28UC877RmYO6jlAJcZq+oGoF5BL2hcRAfBa2xbyQVvqJeQ8UzgbyG5plt8PDtJSa8i3n+0MI6fr8fpuOMYkk71+Wjcpr+N9ttQa8snVjXT+7vtWPnNzvkwjQ4Ho9RsBn9oa1fE+W+pNuTiMlirkgpZGkOu9cN06vBeu3tXZrcO7Ouv9yd06vD8Z1UcZujFPLLjGIA+eGamPNCxkEnXiMyMSqU5NqV+G7QwneHmJcIWQq7pVhVxcKf0B+pG6ny7wZTMAAAAASUVORK5CYII=" InformativeScreenshot="3cdb4bab592a0eb91894bacae2072602.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='SAP Logon 770' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TextField User Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,220" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Text="S4H_SD" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="319, 317, 194, 39" ElementType="InputBox" FriendlyName="'TextField User Name'" FullSelectorArgument="&lt;sap id='usr/txtRSYST-BNAME' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/txtRSYST-BNAME' /&gt;" Guid="49030b1c-c713-482a-9dc9-0747457b864f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMYAAAArCAYAAAAjQfcBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACZSURBVHhe7dOxDYAwAMAwRg7kQL7sCBsINVxQW8oJ2cYYl6RvxpCiZ4z9OKXlyzFgZcaAYAwIxoBgDAjGgGAMCMaAYAwIxoBgDAjGgGAMCMaAYAwIxoBgDAjGgGAMCMaAYAwIxoBgDAjGgGAMCMaAYAwIxoBgDAjGgGAMCMaAYAwIxoBgDAjGgGAMCL9jSKs3jSHpzRjS1LhuadmTy22dPMkAAAAASUVORK5CYII=" InformativeScreenshot="5992ab809bb9ee3b3b84d7d58b016b3f.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'PasswordField *Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,220" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Text="Welcome1[k(enter)]" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="319, 365, 194, 39" ElementType="InputBoxPassword" FriendlyName="'PasswordField *Password'" FullSelectorArgument="&lt;sap id='usr/pwdRSYST-BCODE' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/pwdRSYST-BCODE' /&gt;" Guid="6dd78e61-ff3a-4ccb-bf7e-b5c4b6c85ddc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMYAAAArCAYAAAAjQfcBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFaSURBVHhe7dk9TsNAFIVR1kRBkQ1Q0yJZ2UkUpaOkpUxW4qwkrMLlEAuH/D1bTGiYzDnSq+Di6sOIPHRdl5xz5ycM54L7CePt/cO56i8MA2omDAgIAwLCgIAwICAMCAgDAsKAgDAgIAwICAMCwoCAMCDwpzB27SYtmll6fBqumafFept2w9cjNja9/755eZ7dEsZnapcnD7u8ZpXa4TuPbGx65Wyyw5h84OGazVmVNja9kjZ5YXxu0uvJeOoWhyRtbArc5IXRrs7Gk7fc2tgUu8kKY7eeX/2A0RteVTY2JW6ywqjhN8Xo2VS1yQujgr8tx86mrk1eGHu/elUNr6gDG5teSZvsMPZ5pXY58eDR/xHb2JSzuSGMb/f4iaeNTb+58ZNvuG99A8KAC8KAgDAgIAwICAMCwoCAMCAgDAgIAwLCgIAwICAMCIyG4VztdxWGc+54wnDu6rr0Bf9VGF6wkKxmAAAAAElFTkSuQmCC" InformativeScreenshot="a5ac5cef07fc74eeac7b2532f411cda1.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Button Back (F3)'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="21, 58, 51, 51" ElementType="Button" FriendlyName="'Button Back (F3)'" FullSelectorArgument="&lt;sap id='tbar[0]/btn[3]' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[0]/btn[3]' /&gt;" Guid="85b05619-cffa-4db4-86d1-7e3af7032410" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFcSURBVGhD7do9isJQEMBxj7MEGxFBBAthYb9am2BhKeQE9nYeYLscwNZuLyF4hxTeYnwjLmzirBB5M5N5TvGvnFf8eCSPyOuNPpeQao6z2pPh3ubQn7zDy9hO2XQOw6YjVMcFWEYsNtHkFljDDWdf9EIj9V/v4AZTepGVstnCcSZznNUcZzXHWa07uHwH5QHgeKqgXBO/P1A3cPkWyhPCru239FzL9HFNWOjnu6BnW6aM44NhirgAuzxjPDBMCVfAhhmGKeBkYJgwjoBFejNSCeJkYZgQroDVvg6LdZbdSwSnAcMEcM2zrIJNTs3FT2jnqj+4UNi5D2IudmIvFA2gGA6jnj1OoCgOkwSK4/47FjiACjjs9kDnACrhMH6gIg7jBSrjMBpIz7arAzisATzsouxeR3DY75d5av9+MeU4qznOao6zmuOs9ry4pK9HJX2x7VKyVxITy3E2W8IZVrLn/1eXHgEAAAAASUVORK5CYII=" InformativeScreenshot="915c0a8bc197f741d277757b31e9b568.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Sales Documents' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'OkCodeField okcd'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,220" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Text="ME80FN[k(enter)]" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="30, 136, 234, 36" ElementType="InputBox" FriendlyName="'OkCodeField okcd'" FullSelectorArgument="&lt;sap id='tbar[0]/okcd' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[0]/okcd' /&gt;" Guid="241f46b8-a395-4e0b-ab9d-c462f9148959" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAO4AAAAoCAYAAAD5X8aLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEVSURBVHhe7dfBacNAFEVRLV2Uy0gTXqeSdJAKDC7B27SgVTpIB4p/kAwJNrEGJOvBOfAWI5jlRUw3AHGEC4Gu4e5e3s1s45v8ChfYLuFCoKZwu85zGJ5JuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuLCA/nga9m+f42me/uP8c7cfz7cIF5Zwia862s2Mt6Kte/vj1/jlNuHCUurPOSPeR6MtwoUlPRjvnGiLcGFp/8Q7N9oiXFjDnXhboi3ChbX8ibc12iJcWNMU7+upOdoiXFhbxXsJ99AYbREuBBIuBGoKF3gu4UIg4UIg4UIg4UIg4UIg4UIg4UIg4UKgu+Ga2bY3uYYL5BAuxBmGb5KxgVCpLawbAAAAAElFTkSuQmCC" InformativeScreenshot="a4fb563914e95df8e81a4b94c9625b04.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP Easy Access' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'CTextField Material'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,220" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Text="MZ-RM-R300-01" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="529, 323, 284, 39" ElementType="InputBox" FriendlyName="'CTextField Material'" FullSelectorArgument="&lt;sap id='usr/ctxtS_MATNR-LOW' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/ctxtS_MATNR-LOW' /&gt;" Guid="8bc3a6c0-f8b2-45c4-8713-b71be78d3d00" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASAAAAArCAYAAADYM1X3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC0SURBVHhe7dShEYAwAMBA1kdiWbSyOAwgacz/XVbINsaYklRkQJKy7gHtxylJS3odEMDfDAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNAQMaAgIwBARkDAjIGBGQMCMgYEJAxICBjQEDGgICMAQEZAwIyBgRkDAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNAQOZzQJK0oseAJGl1BiQpaswLWGgV4oBNMYEAAAAASUVORK5CYII=" InformativeScreenshot="eefac17f97c55dbb31c2c510662fb24a.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='General Evaluations' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Execute'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="1021, 624, 92, 40" ElementType="Button" FriendlyName="'Execute'" FullSelectorArgument="&lt;sap id='tbar[1]/btn[8]' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[1]/btn[8]' check:text='Execute' /&gt;" Guid="ab6ad41c-318b-43af-bbfa-f7c5385badb3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGAAAAAsCAYAAACaAr0vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANiSURBVHhe7Zu7ihRBGIWNfQ0TX8QXWIx9BCNTwczYxFtiaGRmYCaaiZEsrIiXQXBBXC+ILrqilHzDnOZMUd0zs1PdtQv/B4fp6bp01X/+qppg+kwKmhIGNKZowM0nB+ni3Vk6d3Uvnb38IrSFiCGxJKYllgx4e3CUdm6/K3YU2l47d2bzGDtLBlCh1DBUTyS40xnAEik1CNWXb0edAexTpcqh+iLWojMgDtzpRKxFZ0CpYmg8iTCgkUQY0EgiDGgkEQY0kggDGkmEAY0kwoBGEhsZcOXB/qL2MK8//S62Py269fRz+vDtz3wupfIaEmFAQQ93vy9mcoIN+PLz73ygJZFBpfanRcxBlMprSBzbgHWy/Pqjj4vaKe3u/1oqe/zqx6IkpfvPv3b3L9x4k57NDtPh0b95GZ985763l2ir7QK45rkq9zETWG/rgVZZH/SjdlwzH6FkPH/tZVdnlcSoBiAfqCbR18+le++7wOdw301gsh74HK1Cf1YNA+i3D8bj/Q9JjLIF5YGirtp44AiqZ43fd7NkCitBdXmOoB31kPeh9oI2ap/34WUkhfD6zEtj4TmaJ6tQrLv9ilEOYer1tVOAwLcKsl/kgSLwoKAiBQLcRK4JoO7VNMADnc9RSZZvtX0SkxiAfM+HfKBDS9uhLpknVm2FNQ1QIgyxajySGP0MkDxo4NmPPBhDUHeTcdQ0wO/3cWIN8K0HdB6o3FdAHqhcJ2EF0K+XbSoxiQE+Ud9H2ZZUx8+AdfbRvjMA0Z7+uPYx5/16oNcxwMfOtZdtKnFsA4Z+BSH9QigF1s8D34p0kAETJLD0w+pgBXmgeYagjH4YH88ADKItbRyeTX8eZKA/9a0+gPvKdl959K+xM0fq5QYPSYxyCIMGra1HAeEeQVEG86nAMhHdL+Erhjb5tub4T9a+w9MTwQ3wTBdaUat+LORnW5/EqAZ4luZL1ifimYNJBMyNIFup7+0RJvAMN4LrvC71vE9fMcINQG4OK1MGINr5KqFfvivp1pHYyIBQPYkwoJFEGNBIIgxoJBEGNJIIAxpJdAbEn3OnU/HPufxlulQ5VF/EWnQGxAsa06n4ggbE+2Hji9fAnCUD5i/pxXtio4kEH3xJT7BE2KfiYN5exJBY+rbjFA0IpiMMaEpK/wHeYcXQz7c8XQAAAABJRU5ErkJggg==" InformativeScreenshot="70f7b7e16d5b2f4c59e4ce7d2065eb74.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='General Evaluations' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'saplogon.exe Purchasing'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="729, 271, 76, 43" FriendlyName="'saplogon.exe Purchasing'" Guid="7fe6cfc7-cae0-43f1-87af-f0f14281db83" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEwAAAArCAYAAADSZm7JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALCSURBVGhD7Zo9axRBHIdznV/APvgF/AR+AJtARLCyU1uxjO/RxBRpLCwsLERNzNkEQcE7BAsb8S2QIhhBSGNjGsHiyjHPOnO7ezszmZfbeMnMAz+Sy84OO09mZu/2/lOdTkeYMhgMkozOhUoWponOhcqU7oQcc7Iwz2iF3X+5KWbv9cX0xa44dvZxUpm+0BWzi/3Cgc5NTdjWzq6YWejVTj6z9Fbc7W4kEcbKmNX4Zxb6hZOqo5owGqjGD15viVRh7KW0nl4YU1A12v75W56aLjhQPqrLcyiMdcvBlGfWKGqmsZ83hLF2SaZO4WXv5tcQhkk2vUwdnOBGK2zuySfZLKPg7hkkbOfXH3Hy8nrRzicP33yTPRxOgoWtvf9RE+GaU3OvZA+Hk2hh/HQFWVmYh7CjQKvCrjz6ULTxyaTPwFaFHT+/MhThk0meta0K4zizzBWXPv83WZgnE7XpZ2F78AZ3eX1TvrITKoy98tzyO/nKH66PPlzYR9hn2ayJ6+A+ft91HlCoMPrmvBBpyPI51yrs6tN4YYA0Pkadnu8VM85EqDAIkeYrC6zCro1JGKjPnsQkLUYY+EgLkQVWYdef+QtjFvF3W0xCYoWBi7RQWWAXtvJFNmsSI8z0xGIcwsAmLUYWWIXdCBBm4iCWZBWdtFhZYBV2c3U8wtSmz4W2tenrqErjn69+j8Eq7NbqV9msiRrcaEYHexBvK2woaSRWFliF3X5uFsZMOXHpxfBiVEYHSzvb0q7ShjBgz2Q5joNgYS7QR1KfJefXNmSzMJITdidSWHLPwzgYQ3JPXGOFHUWswvI3302M33xTP5BrK5qompOGMCpUMJmrd0qG1TuLmuqdXB9WZ9/6MFIt10x5pqmZRajKrDqqCftX41qWbbJ22fS4U6QQxsqYS1k9e42rClOQdVs9OZVw82M/ry7DMgPxFz8xFiMVZz8PAAAAAElFTkSuQmCC" InformativeScreenshot="389445eee50ddfa03c610db280dcf9d5.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Purchasing Documents' /&gt;" SearchSteps="Image" TargetType="ImageBased" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Spreadsheet'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="3, 3, 270, 48" FriendlyName="'Spreadsheet'" FullSelectorArgument="&lt;ctrl name='Context' role='popup menu' /&gt;&lt;ctrl automationid='1' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Context' role='popup menu' /&gt;&lt;ctrl automationid='1' role='menu item' check:text='Spreadsheet' /&gt;" Guid="01665f45-fbc1-4a79-9bcc-b3a4c286ec14" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARIAAAA0CAYAAABGtbe8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAARtSURBVHhe7ZohkuMwEAAP3nsOLNh3BAXsK8JC8oXQoLwgNDA8eOnC48FHfCPJsmV5lEQZsta2q7quLh5LVq2nNZL963a7dQAAFhAJAJgZRPL39g8AoApEAgBmEAkAmEEkAGAGkQCAGUQCAGYQCQCYQSQAYAaRAIAZRAIAZhAJAJhBJABgBpEAgBlEAgBmEAkAmEEkAGAGkSySS7d5e+/+bC/KuTKnrVzz9tHtP/XzAK/SqEi+utNh163WLnEiH91qe+xOTSQRIoHvRYMi+er2g0CcPHbdRlglQll+Ii1ZJK/dO3xv2hPJeReEoTyo1/NRqpRdd8p+Xx4LFsmn/A0QSXM0J5Lr4cOLZHPWz+eE5HJykeXQNlzrEeHkCTfGSiL3Vc/YT7h+rHzey0upz0u3r4jdrMf7Wq0lThVJdv++Grt016StVCRXt/RLYjfnr6StSMWYnoiNf5sJMp70HmGZNCuS1UFLjDkxucJ+iiSUXwrFB346e+exq7Wc9yIZl1NxKeXaCEmVVQBSMcVkc7H7wzGRSl4t9cLoY327rp91Hz+IZNq/a3OQT5Ko8f79+OT8vbFWjenZWJGi37tyvzshnuX/qsBgaTQnkqF0dg+1qyoePKghucKDPZkZlSVSKbZYBWllvK8wRBiTRBT6/lIBxv7ydof7iO0WlgtXaTO99tFY075rxlQ3fv1eYdm0JxKHPKxx6TFQkEopWcdqYKwS9Nh+Ns6Tsydck1caCrMEm/c/MJNcXOro9xApjnXWd82YKsePSJqkTZFE3F5E/ho422wND3peqjtiuT6e02PH5UeZ6TVXZY9kYCYHJeGUZIyScH2FvYmSNLWx5n3VjKly/IikSdoWyYRkMzKZPcvJNT+nxsbEcILya36d2N+44dgnfIyJewcxwe4mnC4Zt5TJv51Jq4+nRVIzpsrxI5I2+UEiccQqY6xKyslVWZEUSvspcfaeVkWePMGGBFXafZiMIs3hrcyj+3fkYnphTE/FCoikSRCJT66aPZI8EefCKXIviUr7Hpp0ZrEF+rg4tudFUjGmqlgBkTRJcyIJ5b3+rYM75xMwmT2jSGYzqpKspUQclisSO52VJcm26fcopdk7JqPWX2FzdxIr7WobrS+LpGZMdbGIpE3aE8mwByGs47cSscx3TBNpEMkkXv9eopyISXLP2tBf6fq3SAe36Rr3RuQa/2+SYDHpXBu+zX4PRPoI14TYQZByb3HfRfs2pUYkNWOqi+37cr/3Y9pMzsMSaU4kHvWtSJ9kWRKNyeVmz1RCkoDF2OnvgXRfIqB/x5Js+nok8UQoVzWZBZFJ+irbjUGN9d+npO3G2LGtOpE4nh1TZayrGpO4eb+wNNoUSQX35QAAz9CUSIYZ7kncNYgEwE5TInkFRAJgB5EgEgAzP14kAGAHkQCAGUQCAGYQCQCYQSQAYAaRAIAZRAIAZhAJAJhBJABgBpEAgBlEAgBmZiL5vToCAFSBSADAzEwkHBwcHLUHIuHg4DAfwR+37j+t/N/3B4/shgAAAABJRU5ErkJggg==" InformativeScreenshot="40d779c91da6be22889c6d0fd86eec7a.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NSelectItem DisplayName="Select Item 'Excel -'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Excel - Office Open XML Format (XLSX)" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Version="V1">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="8">
+                  <x:String>SAP-Internal XML Format</x:String>
+                  <x:String>Excel - Office 2003 XML Format</x:String>
+                  <x:String>OpenOffice - OpenDocument Format 2.0</x:String>
+                  <x:String>Excel - MHTML Format for 2000/97</x:String>
+                  <x:String>Excel - MHTML Format</x:String>
+                  <x:String>Excel - Office Open XML Format (XLSX)</x:String>
+                  <x:String xml:space="preserve">Excel -  in existing XXL format</x:String>
+                  <x:String xml:space="preserve"> </x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="77, 306, 509, 39" ElementType="DropDown" FriendlyName="'Excel -'" FullSelectorArgument="&lt;sap id='usr/cmbG_LISTBOX' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/cmbG_LISTBOX' /&gt;" Guid="1936bcd2-6eaf-4342-b1c3-3c3a53deafe0" InformativeScreenshot="2023b8af4688d10a9125f28b7902e0ef.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Select Spreadsheet' idx='*' /&gt;" SearchSteps="Selector" />
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Button Continue (Enter)'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="708, 551, 40, 39" ElementType="Button" FriendlyName="'Button Continue (Enter)'" FullSelectorArgument="&lt;sap id='tbar[0]/btn[0]' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[0]/btn[0]' /&gt;" Guid="f4ad0644-18dc-4e05-ab2d-fa6424c014a6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAArCAYAAAADgWq5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFrSURBVFhH7dYxSgQxFIBhj+ABvIAHsLWy2FKstRc7GyuxEMRGUCwXBBuxsNDGxrWzELSysLHUxs4jRP4hkUwIu0kmL7LwfgjskIX9yGQyu2DmLAVLp2DpFCydgqVTsHT/An74eDavX+/2Kq/mYKBLR6NuAM+tOXjlfNMsHqx2A3RuTcF792d/WMb65a6dSa8ZmNvvY1ndz59vO5teEzCw5ZONHvji5c7O5tUEvHN73MNuXe/bmfzEwaykj2WlS7aCqwiceo4CY6/64Ju3iZ0tKxt8+nTV/XDKObo23u5h2RpDywKzqj5gGvrwcdz77tCt4MpeYR4YHxJDcx1uhVl3I7WiPcyB72NCtP82Y/DCqFURmFsbokBzIoR3gO/VrAhMMXRs1NoKrmIwxY4tf9TcCq5BYIo9YAyONIkGgylE87n0D/qsqoDJvVAYnMFSVQMT6Bpvs2lVBbdIwdIpWDoFS6dg6RQs3ZyBjfkFf0SD1UG/OMQAAAAASUVORK5CYII=" InformativeScreenshot="82e30a38f456e9be609e993cac967abb.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Select Spreadsheet' idx='*' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'CTextField Directory'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,220" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Text="C:\Users\nelson.wang\OneDrive - UiPath\Demos\Use Cases\SAP_Golden\SAPGolden" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="212, 114, 794, 39" ElementType="InputBox" FriendlyName="'CTextField Directory'" FullSelectorArgument="&lt;sap id='usr/ctxtDY_PATH' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/ctxtDY_PATH' /&gt;" Guid="d92fcf36-5796-4ed8-b382-09f2eb2dfbcd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAx4AAAArCAYAAAD2ZV69AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAL1SURBVHhe7dxBSxRhAMdh99bJg9gX6Ht0EPILSJCg0ano6sFDIF467MGDHSI8FIgoVBdBQj0oIRWUHQJZyLKuGtXFT/DWO81suxPG6jq7OPM88KfdtXWv7491ZiAAAACVUqvVkvWS8AAAgIrpa3hcur5oZmZmZmYl3U7jqPk4C4/Wn3ez4cmVMDKzHm492AmvP35LC6NdW3gAAADlk5317z/7kCwLj+x5t5te3A2jsxthcHwpDE0sh/m1RvJ5rYQHAACUXP6sn4XHeTs4PA5j9a3k8/LxITwAAKDkehUembH6dvLNR+ufXQkPAAAouV6HR/zmI/7Z1dSTt+krwgMAAEqvH2f9eM1HvOA8IzwAAKDk+nHWjxecx7tdZYQHAACUXD/O+vFuV62f21F4DAw0/xsAAHDBCA8AAKBwZwmP2w9fJ+87zS7fXAkLm/vJ+4UHAABUzP/O+ieJ75l6/PeuVJ24eu9Fskh4AABAxQgPAACgcMIDAAAonPAAAAAKJzwAAIDC5c/6c6t7yR2o4uv5ZbHR+rhTwgMAACosf9ZvDYSTCA8AAOBUhAcAAFA44QEAABROeAAAAIUTHgAAQOGEBwAAULizhMeNuZfJ+06zeIvehc395P3CAwAAKiZ/1u8kPLolPAAAoGKEBwAAULjzDo+nr74mvzP+exLhAQAAFSM8AACAwgkPAACgcMIDAAAonPAAAAAKd2HCAwAAuLjyZ/251b3ktW525c7zsPv5R/ob/yU8AACgYvpx1p9e3A3DkyvpM+EBAACl14+z/ujsRrj2exnhAQAAJZc/69dqtWRFOTg8DoPjS+HuozfpK8IDAABKr9fhMVbfCkMTy+H9l5/pK8IDAABKr1fhEb/pGKtvJ583v9ZIX/1DeAAAQMllZ/14p6m4LDyy590uXkger+mIf14Vv+nIR0fUFh5mZmZmZlbO7TSOmo+z8Gj9eTeLd68amVlPrul49+l7WhjtmuEBAABUQxYevSQ8AACgYnofHiH8AsVTEWNJ8SryAAAAAElFTkSuQmCC" InformativeScreenshot="c054a37997a3d829d5fed7322d94857a.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Purchasing Documents' idx='*' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Generate'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84bc48cb-1ab1-4cec-a880-625a245aa19b" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="937, 263, 98, 39" ElementType="Button" FriendlyName="'Generate'" FullSelectorArgument="&lt;sap id='tbar[0]/btn[0]' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[0]/btn[0]' check:text='Generate' /&gt;" Guid="6d74a207-9cd0-4319-84a1-65e68af7b7ab" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGYAAAArCAYAAACKGf3QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAARfSURBVHhe7Zs9axVBFIYt/QHWor1/wN7SwqClVmJhIfgdbcRCJAELG0EQNEYtkiYiWigRG5GAH0Eh2sRCG0ELIWDrmifwLucOZ+buJne9q5yBh5uZOXP2zHnn4wbubqui9LKEMD0trjA3nnysDk49r3Yfm6+2H5oJOoDckmNy7ZUBYT5/W6sOXF2sB+88Olftv7JYXby/HIwQckpuleeJ9ZyTe1sGhMFAxtMPV6ofv34HHTK9sFLnmw1hSy0MW0pGS6s/XUfB6CHXyrs91mphOO/oREXPQdAdnE7kHg1UamG4jDj3vIFB95B7NFCphUExLiVvUNA95B4NVAaEOXn7tTso6B6+rYUwPSSE6SkhTE8JYXpKCNNTRibMreer1b5LT6sdhx9sjIW9k4+ry/PvXfugzEiEmZh6UYuxa/2fIgTZc2KhbqO+/GXNHfuvc3bm7cYcWZhe/2bZsjBHrr/csEWINLhnH77XAiGO7ftfOH5zqX/CkHjsOL7427NhpyDK3Kuvbh/C6vjjk92X7i76tOvs7vQWAxALx6rs2MUkMLWTX2LDhrr6aONZNjZ82Njk32Kf0zQOjy0Jo9VCcr3+EkxQu4kE4EtJpz1NAAmkHbDVhNNFQUJpA+LClrF6juzkF3/Y8okd7dyL8q3Y9Dw+NZ52CSo7LZQ2cXhsSRg9aDPbmEC9sTqz6VcbdUgnJB+MURsxkYx01ymx9nk5vyQVP+kpgB329Kstl4M2cXgUhTnVUJj04U1gpbFKvT582j7q3nOYHO0SkURS93awbG2f/KYC5PAWkydM2zg8isKcvvPGHSRKwtCe4u2CEqmt6iIVRvUSxKzxalPdgi9WN6vejgcrgidM2zg8tiRMaVvyYKFzOBVGl2EOawuqCyVAtqrzzNSXsP9X5fxiR7u9H/Cto8zOl2elbW3j8CgKc2amLIzug2HbkkCw41Nt1HNHWQq2kLYrAfKr+rB4RM4vgnj3g+bRVJimcXgUhbGXqofOUiZhL8QUb8eorcn5jh2k7akwigffqa1Hzi9tJDxtJ9H0DROmbRweZWHuloUBrSKCsMEBK07HHVhhNI5+O4ZJMVm7WjXe2kEqDChR6aLCNn1Wzi9taVL19Zc+O0/veIM2cXgUhTnXQBhQcKD/BxQY6G+bQBKPrcbQhx9N/tqjT7Wt/KguPGFsAkkAfVoctNsdmvOrePm0cXki6DhnDuwo3R1t4vAoCnN+tpkwoJWgYPikTruXQEAc2nSsaUx6LNIHtg1yfpm0FRn/1NM7I+cXO4mg8SwUPc9e3NjaRWj7msbhURRmcvadOyjonrIw90KYcVEU5kIIMzaKwtDpDQq6J4TpKUVh4peY4yP7S8z47fJ4yf52uf61f7wX89fRezLur/3j/ZjxMPT9GIp9zS/ek+kevRcDvM1ny4AwvAdoX/fj3ONS4htDMDrIKblVntkQxXcwVdhSnHdcRhocjBZyS47t8WWLK0yU8ZcQppelqv4ALkidj8LxT2AAAAAASUVORK5CYII=" InformativeScreenshot="4feb6caf169d41e324170a8146528d62.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Purchasing Documents' idx='*' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="587, 51, 875, 875" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIFSURBVGhD7Za/axNxFMAjFupgJ9NFF0mqaKnSlpoSTPSawVHT6tKhDgWhpRYVO7Q5J9EpTaE5MEGDEh1McoKL0vafEU4T1NIfREQn83xf+kIb+m1yku+dnrwPfJYMeZ/3vW/C+RiGYRiGYZj/iNiDN1fQuEeMUfYOPbPpQ/ihhYIHrI7oZpTSd/DQAtsYf5Gyd/HIAtuaboYpuREPLLB1YLzgH19gE+NDlConcCuFC5hWTDfBFeWhMkX8BcpsBFaPPar7a8X/uJgbr756OgHOexMmHhowkijJgve6oSXMIcrdD6z54W/4In0dIveeg7ZQlEXXXceTH6RUObIvd9Iamlu6CsPTBkTnXjZ7AiJ+gDIPRjbESZ+lrsHw1DJE7+ebxX/Fa9NPic2RDXFCcfLZxTiEWsd/xpM/T3mtkQ1TbW2tGzKLo3jy6VbxXzS9dI7S7CEbqFIR/yQ5ZidenHwfZdkHh1Tr1lb93368P177/u4EqNJI3rATX8H4Xkr6M36+PdIh/JTv7Ihf7uq6dCdTjswYEJlJK9CA8Gy21b9NRUuUzlJOexwNDh3W5guWNv8alLlQAHxzlIULy3jnz9D49um5bbj5LvQRr81pGq0GF1/mRPwpGqsOlxawHIkXuLDAB/w9BGmcehxeQMQHaJRz4KBJ9K5qMf4kjWAYhmEYhmGU4PP9Bk3avylp2W2tAAAAAElFTkSuQmCC" InformativeScreenshot="1b8f923f14411bd5ecf21c6dc0a538c7.png" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='SAP Logon 770'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
